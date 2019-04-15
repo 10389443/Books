@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @registration.Name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @registration.Description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @registration.Price %>
+</p>
+
+<p>
+  <strong>Sellerid:</strong>
+  <%= @registration.SellerID %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @registration.Email %>
+</p>
+
+<%= link_to 'Edit', edit_registration_path(@registration) %> |
+<%= link_to 'Back', registrations_path %>
